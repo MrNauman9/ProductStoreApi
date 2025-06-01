@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  productstoreapi:
+    image: productstore:local
+    build:
+      context: ./ProductStoreApi
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
