@@ -1,0 +1,12 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.vspscc
+*.vssscc
+*.vshost.*
+*.log
+*.DS_Store
+*.db
+*.class
