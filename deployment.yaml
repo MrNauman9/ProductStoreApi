@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: productstore
-          image: <your-dockerhub-or-azure-image-url>
+          image: productstoreacr.azurecr.io/productstore:latest
           ports:
             - containerPort: 80
