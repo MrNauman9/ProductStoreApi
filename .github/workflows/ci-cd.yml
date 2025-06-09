@@ -24,7 +24,7 @@ jobs:
         run: dotnet build --no-restore --configuration Release
 
       - name: Run tests
-        run: dotnet test ProductStoreApi.Tests/ProductStoreApi.Tests.csproj --no-build --verbosity normal
+        run: dotnet test ProductStoreApi.Tests/ProductStoreApi.Tests.csproj --verbosity normal
 
 
       - name: Log in to Azure Container Registry
