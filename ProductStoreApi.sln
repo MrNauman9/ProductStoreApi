@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{02EA681E-C7D
 		service.yaml = service.yaml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductStoreApi.Tests", "ProductStoreApi.Tests\ProductStoreApi.Tests.csproj", "{C37950CA-E1F7-C64D-9D05-9FE58A3F7174}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BA0A1136-7F64-45ED-A4DA-214752D748FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0A1136-7F64-45ED-A4DA-214752D748FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0A1136-7F64-45ED-A4DA-214752D748FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37950CA-E1F7-C64D-9D05-9FE58A3F7174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37950CA-E1F7-C64D-9D05-9FE58A3F7174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37950CA-E1F7-C64D-9D05-9FE58A3F7174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37950CA-E1F7-C64D-9D05-9FE58A3F7174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
