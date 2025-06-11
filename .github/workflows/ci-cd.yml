@@ -48,7 +48,7 @@ jobs:
         uses: azure/aks-set-context@v3
         with:
           resource-group: ProductStoreGroup
-          cluster-name: productstoreaks
+          cluster-name: productstoreaks2
 
       - name: Deploy to AKS
         run: |
