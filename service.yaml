@@ -4,7 +4,7 @@ metadata:
   name: productstore-service
 spec:
   selector:
-    app: productstore
+    app: productstore #pod
   ports:
     - protocol: TCP
       port: 80

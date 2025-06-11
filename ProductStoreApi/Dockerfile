@@ -1,5 +1,5 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build #image 
+WORKDIR /app  
 
 # Copy the csproj and restore
 COPY ProductStoreApi.csproj ./

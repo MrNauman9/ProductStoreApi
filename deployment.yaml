@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: productstore
+      app: productstore #pod name
   template:
     metadata:
       labels:
-        app: productstore
+        app: productstore 
     spec:
       containers:
         - name: productstore
