@@ -48,12 +48,12 @@ jobs:
         uses: azure/aks-set-context@v3
         with:
           resource-group: ProductStoreGroup
-          cluster-name: productstoreaks
+          cluster-name: productstoreaks2
 
       - name: Deploy to AKS
         run: |
-           kubectl apply -f ProductStoreApi/k8s/deployment.yaml
-           kubectl apply -f ProductStoreApi/k8s/service.yaml
+           kubectl apply -f ./k8s/deployment.yaml
+           kubectl apply -f ./k8s/service.yaml
 
 
            
